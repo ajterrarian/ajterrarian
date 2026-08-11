@@ -5,15 +5,15 @@ to actually work, not just look like they work, and then going and checking whet
 
 #### What I'm building
 
-- 🔴 **[RL Trading Agent]((https://github.com/ajterrarian/rl-trading-agent))** — a Deep Q-Network built from scratch, trading SPY,
+- **[RL Trading Agent](https://github.com/ajterrarian/rl-trading-agent)** — a Deep Q-Network built from scratch, trading SPY,
   deployed for live paper trading with a real risk layer (kill switch, data sanity checks,
   equity-capped position sizing). Validation results matched buy-and-hold exactly, so instead of
   taking that as a win, I checked the agent's actual behavior, found it had converged to
   buy-once-and-hold-forever, and reported that honestly instead of dressing it up.
-- ⚖️ **[EquiFace v2](https://github.com/ajterrarian/equiface)** — audited a ResNet18 gender classifier trained on FairFace
+- **[EquiFace v2](https://github.com/ajterrarian/equiface)** — audited a ResNet18 gender classifier trained on FairFace
   for demographic bias. Found a statistically significant disparity (z=5.51, p≈3.7×10⁻⁸) that
   reproduces the Gender Shades study.
-- 📈 **[Statistical Arbitrage Backtester]((https://github.com/ajterrarian/stat-arb))** — cointegration-based pairs trading,
+- **[Statistical Arbitrage Backtester](https://github.com/ajterrarian/stat-arb)** — cointegration-based pairs trading,
   tested with pytest against hand-calculated values, documented methodology and limitations
   instead of overselling the result.
 
@@ -29,11 +29,8 @@ Probability theory, ML & Webdev fundamentals
 ![scikit-learn](https://img.shields.io/badge/-scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
 
-#### Stats
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=ajterrarian&show_icons=true&theme=github_dark&hide_border=true)
-
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ajterrarian&layout=compact&theme=github_dark&hide_border=true)
+#### Contact Me!
+Feel free to reach out :) 
 
 📫 [LinkedIn](https://www.linkedin.com/in/aaravjamdar/) · aaravjamdar@gmail.com
 <!--
