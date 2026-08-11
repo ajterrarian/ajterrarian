@@ -1,7 +1,6 @@
 ### Hi, I'm Aarav.
 
-Incoming freshman at UC Berkeley, Applied Math & Data Science. I like building things that have
-to actually work, not just look like they work, and then going and checking whether they do.
+I'm studying Math, CS, and Data Science at UC Berkeley and I am passionate about machine learning and its applications to financial technology.
 
 #### What I'm building
 
