@@ -8,7 +8,7 @@
   <a href="https://aaravjamdar.com"><img alt="website" src="https://raw.githubusercontent.com/ajterrarian/ajterrarian/main/assets/badge-website.svg" height="34"></a>
 </p>
 
-## About
+## about me
 
 I study math, CS, and data science at UC Berkeley. Almost everything I build sits where machine learning meets markets — trading agents, backtesters, and the occasional audit of somebody else's model.
 
@@ -23,9 +23,9 @@ What I actually care about is whether a result survives scrutiny. Two of the thr
 **[rl-trading-agent](https://github.com/ajterrarian/rl-trading-agent)**<br>
 <sub>`deep q-network` · `live paper trading`</sub>
 
-A DQN built from scratch, trading SPY, deployed to live paper trading behind a real risk layer: kill switch, data sanity checks, equity-capped position sizing.
+A DQN built from scratch, trading SPY, deployed to live paper trading behind a risk layer: kill switch, data sanity checks, equity-capped position sizing.
 
-*Validation matched buy-and-hold exactly — so I inspected the policy, found it had converged to buy-once-and-hold-forever, and reported it as a negative result.*
+*Validation matched buy-and-hold exactly — converged to buy-once-and-hold-forever.*
 
 </td>
 <td width="50%" valign="top">
@@ -47,7 +47,7 @@ A demographic bias audit of a ResNet18 gender classifier, finding a statisticall
 
 A cointegration-based pairs-trading backtester, tested with `pytest` against hand-calculated values.
 
-*Methodology and limitations are documented rather than buried.*
+**
 
 </td>
 <td width="50%" valign="top">
@@ -57,9 +57,9 @@ A cointegration-based pairs-trading backtester, tested with `pytest` against han
 
 [Stock-Return-Classifier](https://github.com/ajterrarian/Stock-Return-Classifier) — supervised classification of forward equity returns
 
-[moving-average-backtest](https://github.com/ajterrarian/moving-average-backtest) — MA-crossover backtest over 2000–2025, a deliberately simple baseline
+[moving-average-backtest](https://github.com/ajterrarian/moving-average-backtest) — MA-crossover backtest over 2000–2025
 
-[neetcode-submissions](https://github.com/ajterrarian/neetcode-submissions) — NeetCode.io problem submissions
+[neetcode-submissions](https://github.com/ajterrarian/neetcode-submissions) — NeetCode problem submissions
 
 </td>
 </tr>
@@ -67,7 +67,7 @@ A cointegration-based pairs-trading backtester, tested with `pytest` against han
 
 ## Currently working on
 
-**ForexPred** — a pattern-to-payoff prediction pipeline for FX, built with [@xild076](https://github.com/xild076). Private for now.
+**ForexPred** — a pattern-to-payoff prediction pipeline for Foreign Exchange markets, built with [@xild076](https://github.com/xild076). Private for now.
 
 Every bar across 5 currency pairs and 4 timeframes is labelled by an ATR-scaled, gap-aware run classifier. A causal dilated TCN-GRU predicts whether a payoff starts on the next bar, and a cluster memory of time-warped shape prototypes only emits a directional call when its 95% Wilson lower bound beats chance. Validation is strictly chronological — the gate trains on ≤ 2024, validates on 2025, and every reported number comes from an unseen 2026+ holdout, with 0.8 pip of spread deducted on every trade.
 
@@ -76,5 +76,3 @@ Every bar across 5 currency pairs and 4 timeframes is labelled by an ATR-scaled,
 <div align="center">
   <img alt="Stack — Python; PyTorch, scikit-learn, Gymnasium; NumPy, SciPy, statsmodels, pandas; walk-forward CV, cointegration, backtesting, risk sizing; matplotlib, Parquet, yfinance, Alpaca, pytest, Git" src="https://raw.githubusercontent.com/ajterrarian/ajterrarian/main/assets/stack.svg" width="100%">
 </div>
-
-<sub>Every panel above is a generated SVG — see <a href="tools/">tools/</a>. Dark by design in both GitHub themes. No external badge services, no tracking pixels.</sub>
