@@ -66,8 +66,8 @@ a cointegration-based pairs-trading backtester, tested with `pytest` against han
 
 every bar across 5 currency pairs and 4 timeframes is labelled by an ATR-scaled, gap-aware run classifier. a causal dilated TCN-GRU predicts whether a payoff starts on the next bar, and a cluster memory of time-warped shape prototypes only emits a directional call when its 95% Wilson lower bound beats chance. validation is strictly chronological — the gate trains on ≤ 2024, validates on 2025, and every reported number comes from an unseen 2026+ holdout, with 0.8 pip of spread deducted on every trade.
 
-## Stack
+## stack
 
 <div align="center">
-  <img alt="Stack — Python; PyTorch, scikit-learn, Gymnasium; NumPy, SciPy, statsmodels, pandas; walk-forward CV, cointegration, backtesting, risk sizing; matplotlib, Parquet, yfinance, Alpaca, pytest, Git" src="https://raw.githubusercontent.com/ajterrarian/ajterrarian/main/assets/stack.svg" width="100%">
+  <img alt="stack — languages: python, bash, html/css; ml/dl: pytorch, scikit-learn, gymnasium; data: pandas, numpy, statsmodels, scipy, matplotlib; tools: git, claude code, pytest, alpaca" src="https://raw.githubusercontent.com/ajterrarian/ajterrarian/main/assets/stack.svg" width="100%">
 </div>

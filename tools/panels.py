@@ -7,11 +7,10 @@ ROW = 76
 PADY = 54
 
 GROUPS = [
-    ("LANGUAGE",   ["Python"]),
-    ("ML / DL",    ["PyTorch", "scikit-learn", "Gymnasium"]),
-    ("SCIENTIFIC", ["NumPy", "SciPy", "statsmodels", "pandas"]),
-    ("QUANT",      ["walk-forward CV", "cointegration", "backtesting", "risk sizing"]),
-    ("DATA & OPS", ["matplotlib", "Parquet", "yfinance", "Alpaca", "pytest", "Git"]),
+    ("languages", ["python", "bash", "html/css"]),
+    ("ml/dl",     ["pytorch", "scikit-learn", "gymnasium"]),
+    ("data",      ["pandas", "numpy", "statsmodels", "scipy", "matplotlib"]),
+    ("tools",     ["git", "claude code", "pytest", "alpaca"]),
 ]
 
 
