@@ -19,24 +19,54 @@ What I actually care about is whether a result survives scrutiny. Two of the thr
 
 ## Featured projects
 
-**[rl-trading-agent](https://github.com/ajterrarian/rl-trading-agent)** — a Deep Q-Network built from scratch, trading SPY, deployed to live paper trading behind a real risk layer: kill switch, data sanity checks, equity-capped position sizing.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-> Validation results matched buy-and-hold *exactly*. Rather than book that as a win, I inspected the learned policy, found it had converged to buy-once-and-hold-forever, and reported it as a negative result.
+**[rl-trading-agent](https://github.com/ajterrarian/rl-trading-agent)**<br>
+<sub>`deep q-network` · `live paper trading`</sub>
 
-**[equiface](https://github.com/ajterrarian/equiface)** — a demographic bias audit of a ResNet18 gender classifier trained on FairFace. Found a statistically significant performance disparity across groups (z = 5.51, p ≈ 3.7 × 10⁻⁸), reproducing the core finding of the Gender Shades study on a different model and dataset.
+A DQN built from scratch, trading SPY, deployed to live paper trading behind a real risk layer: kill switch, data sanity checks, equity-capped position sizing.
 
-**[stat-arb](https://github.com/ajterrarian/stat-arb)** — a cointegration-based pairs-trading backtester. Tested with `pytest` against hand-calculated values, with methodology and limitations documented rather than buried.
+*Validation matched buy-and-hold exactly — so I inspected the policy, found it had converged to buy-once-and-hold-forever, and reported it as a negative result.*
 
-<details>
-<summary>Also public</summary>
+</td>
+<td width="50%" valign="top">
 
-| Repo | What it is |
-| :--- | :--- |
-| [Stock-Return-Classifier](https://github.com/ajterrarian/Stock-Return-Classifier) | Supervised classification of forward equity returns |
-| [moving-average-backtest](https://github.com/ajterrarian/moving-average-backtest) | MA-crossover backtest over 2000–2025, a deliberately simple baseline |
-| [neetcode-submissions](https://github.com/ajterrarian/neetcode-submissions) | NeetCode.io problem submissions |
+**[equiface](https://github.com/ajterrarian/equiface)**<br>
+<sub>`bias audit` · `fairface` · `resnet18`</sub>
 
-</details>
+A demographic bias audit of a ResNet18 gender classifier, finding a statistically significant performance disparity across groups (z = 5.51, p ≈ 3.7 × 10⁻⁸).
+
+*Reproduces the core finding of the Gender Shades study on a different model and dataset.*
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**[stat-arb](https://github.com/ajterrarian/stat-arb)**<br>
+<sub>`cointegration` · `pairs trading`</sub>
+
+A cointegration-based pairs-trading backtester, tested with `pytest` against hand-calculated values.
+
+*Methodology and limitations are documented rather than buried.*
+
+</td>
+<td width="50%" valign="top">
+
+**Also public**<br>
+<sub>`smaller things`</sub>
+
+[Stock-Return-Classifier](https://github.com/ajterrarian/Stock-Return-Classifier) — supervised classification of forward equity returns
+
+[moving-average-backtest](https://github.com/ajterrarian/moving-average-backtest) — MA-crossover backtest over 2000–2025, a deliberately simple baseline
+
+[neetcode-submissions](https://github.com/ajterrarian/neetcode-submissions) — NeetCode.io problem submissions
+
+</td>
+</tr>
+</table>
 
 ## Currently working on
 
