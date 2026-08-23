@@ -23,7 +23,6 @@ i study math, cs, and data science at uc berkeley. i'm interested in the interse
 
 a DQN built from scratch, trading SPY, deployed to live paper trading behind a risk layer: kill switch, data sanity checks, equity-capped position sizing.
 
-**
 
 </td>
 <td width="50%" valign="top">
@@ -33,7 +32,6 @@ a DQN built from scratch, trading SPY, deployed to live paper trading behind a r
 
 a demographic bias audit of a resnet18 gender classifier, finding a statistically significant performance disparity across groups (z = 5.51, p ≈ 3.7 × 10⁻⁸).
 
-**
 
 </td>
 </tr>
@@ -45,7 +43,6 @@ a demographic bias audit of a resnet18 gender classifier, finding a statisticall
 
 a cointegration-based pairs-trading backtester, tested with `pytest` against hand-calculated values.
 
-**
 
 </td>
 <td width="50%" valign="top">
