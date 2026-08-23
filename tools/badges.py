@@ -1,7 +1,7 @@
 import os
 from common import MONO, t, width, THEMES
 
-BADGES = ["email", "linkedin", "github"]
+BADGES = ["email", "linkedin", "website"]
 FS, H, PADX = 26, 68, 26
 
 

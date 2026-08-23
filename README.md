@@ -1,15 +1,12 @@
 <div align="center">
-  <img alt="Aarav Jamdar — machine learning × computational finance" src="https://raw.githubusercontent.com/ajterrarian/ajterrarian/main/assets/banner.svg" width="100%">
+  <img alt="Aarav Jamdar — applied ai, machine learning, computational finance" src="https://raw.githubusercontent.com/ajterrarian/ajterrarian/main/assets/banner.svg" width="100%">
 </div>
 
 <p align="center">
   <a href="mailto:aaravjamdar@gmail.com"><img alt="email" src="https://raw.githubusercontent.com/ajterrarian/ajterrarian/main/assets/badge-email.svg" height="34"></a>
   <a href="https://www.linkedin.com/in/aaravjamdar/"><img alt="linkedin" src="https://raw.githubusercontent.com/ajterrarian/ajterrarian/main/assets/badge-linkedin.svg" height="34"></a>
-  <a href="https://github.com/ajterrarian?tab=repositories"><img alt="github" src="https://raw.githubusercontent.com/ajterrarian/ajterrarian/main/assets/badge-github.svg" height="34"></a>
+  <a href="https://aaravjamdar.com"><img alt="website" src="https://raw.githubusercontent.com/ajterrarian/ajterrarian/main/assets/badge-website.svg" height="34"></a>
 </p>
-
-<!-- Website: once the portfolio is live, add "website" to BADGES in tools/badges.py, re-run it,
-     then copy one of the <a><img> blocks above and point it at the URL. -->
 
 ## About
 
