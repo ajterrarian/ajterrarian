@@ -1,44 +1,53 @@
-### Hi, I'm Aarav.
+<div align="center">
+  <img alt="Aarav Jamdar — machine learning × computational finance" src="https://raw.githubusercontent.com/ajterrarian/ajterrarian/main/assets/banner.svg" width="100%">
+</div>
 
-I'm studying Math, CS, and Data Science at UC Berkeley and I am passionate about machine learning and its applications to financial technology.
+<p align="center">
+  <a href="mailto:aaravjamdar@gmail.com"><img alt="email" src="https://raw.githubusercontent.com/ajterrarian/ajterrarian/main/assets/badge-email.svg" height="34"></a>
+  <a href="https://www.linkedin.com/in/aaravjamdar/"><img alt="linkedin" src="https://raw.githubusercontent.com/ajterrarian/ajterrarian/main/assets/badge-linkedin.svg" height="34"></a>
+  <a href="https://github.com/ajterrarian?tab=repositories"><img alt="github" src="https://raw.githubusercontent.com/ajterrarian/ajterrarian/main/assets/badge-github.svg" height="34"></a>
+</p>
 
-#### What I'm building
+<!-- Website: once the portfolio is live, add "website" to BADGES in tools/badges.py, re-run it,
+     then copy one of the <a><img> blocks above and point it at the URL. -->
 
-- **[RL Trading Agent](https://github.com/ajterrarian/rl-trading-agent)** — a Deep Q-Network built from scratch, trading SPY,
-  deployed for live paper trading with a real risk layer (kill switch, data sanity checks,
-  equity-capped position sizing). Validation results matched buy-and-hold exactly, so instead of
-  taking that as a win, I checked the agent's actual behavior, found it had converged to
-  buy-once-and-hold-forever, and reported that honestly instead of dressing it up.
-- **[EquiFace v2](https://github.com/ajterrarian/equiface)** — audited a ResNet18 gender classifier trained on FairFace
-  for demographic bias. Found a statistically significant disparity (z=5.51, p≈3.7×10⁻⁸) that
-  reproduces the Gender Shades study.
-- **[Statistical Arbitrage Backtester](https://github.com/ajterrarian/stat-arb)** — cointegration-based pairs trading,
-  tested with pytest against hand-calculated values, documented methodology and limitations
-  instead of overselling the result.
+## About
 
-#### Currently learning
+I study math, CS, and data science at UC Berkeley. Almost everything I build sits where machine learning meets markets — trading agents, backtesters, and the occasional audit of somebody else's model.
 
-Probability theory, ML & Webdev fundamentals
+What I actually care about is whether a result survives scrutiny. Two of the three projects below report a negative or heavily-caveated finding, because that is what the data said. I'd rather ship an honest null than a dressed-up number.
 
-#### Stack
+## Featured projects
 
-Python, PyTorch, pandas, scikit-learn, Git
+**[rl-trading-agent](https://github.com/ajterrarian/rl-trading-agent)** — a Deep Q-Network built from scratch, trading SPY, deployed to live paper trading behind a real risk layer: kill switch, data sanity checks, equity-capped position sizing.
 
-#### Contact Me!
-Feel free to reach out :) 
+> Validation results matched buy-and-hold *exactly*. Rather than book that as a win, I inspected the learned policy, found it had converged to buy-once-and-hold-forever, and reported it as a negative result.
 
-[LinkedIn](https://www.linkedin.com/in/aaravjamdar/) · aaravjamdar@gmail.com
-<!--
-**ajterrarian/ajterrarian** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**[equiface](https://github.com/ajterrarian/equiface)** — a demographic bias audit of a ResNet18 gender classifier trained on FairFace. Found a statistically significant performance disparity across groups (z = 5.51, p ≈ 3.7 × 10⁻⁸), reproducing the core finding of the Gender Shades study on a different model and dataset.
 
-Here are some ideas to get you started:
+**[stat-arb](https://github.com/ajterrarian/stat-arb)** — a cointegration-based pairs-trading backtester. Tested with `pytest` against hand-calculated values, with methodology and limitations documented rather than buried.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<details>
+<summary>Also public</summary>
+
+| Repo | What it is |
+| :--- | :--- |
+| [Stock-Return-Classifier](https://github.com/ajterrarian/Stock-Return-Classifier) | Supervised classification of forward equity returns |
+| [moving-average-backtest](https://github.com/ajterrarian/moving-average-backtest) | MA-crossover backtest over 2000–2025, a deliberately simple baseline |
+| [neetcode-submissions](https://github.com/ajterrarian/neetcode-submissions) | NeetCode.io problem submissions |
+
+</details>
+
+## Currently working on
+
+**ForexPred** — a pattern-to-payoff prediction pipeline for FX, built with [@xild076](https://github.com/xild076). Private for now.
+
+Every bar across 5 currency pairs and 4 timeframes is labelled by an ATR-scaled, gap-aware run classifier. A causal dilated TCN-GRU predicts whether a payoff starts on the next bar, and a cluster memory of time-warped shape prototypes only emits a directional call when its 95% Wilson lower bound beats chance. Validation is strictly chronological — the gate trains on ≤ 2024, validates on 2025, and every reported number comes from an unseen 2026+ holdout, with 0.8 pip of spread deducted on every trade.
+
+## Stack
+
+<div align="center">
+  <img alt="Stack — Python; PyTorch, scikit-learn, Gymnasium; NumPy, SciPy, statsmodels, pandas; walk-forward CV, cointegration, backtesting, risk sizing; matplotlib, Parquet, yfinance, Alpaca, pytest, Git" src="https://raw.githubusercontent.com/ajterrarian/ajterrarian/main/assets/stack.svg" width="100%">
+</div>
+
+<sub>Every panel above is a generated SVG — see <a href="tools/">tools/</a>. Dark by design in both GitHub themes. No external badge services, no tracking pixels.</sub>
